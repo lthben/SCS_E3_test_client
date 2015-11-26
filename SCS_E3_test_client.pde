@@ -39,25 +39,25 @@ void draw() {
 
 void keyPressed() {
         if (key == '0') {
-                myClient.write("off-all");
+                myClient.write("off_all");
         } else if (key == '1') {
-                myClient.write("pulse-1");
+                myClient.write("pulse_1");
         } else if (key == '2') {
-                myClient.write("pulse-2");
+                myClient.write("pulse_2");
         } else if (key == '3') {
-                myClient.write("pulse-3");
+                myClient.write("pulse_3");
         } else if (key == '4') {
-                myClient.write("wrong-1");
+                myClient.write("wrong_1");
         } else if (key == '5') {
-                myClient.write("wrong-2");
+                myClient.write("wrong_2");
         } else if (key == '6') {
-                myClient.write("wrong-3");
+                myClient.write("wrong_3");
         } else if (key == '7') {
-                myClient.write("correct-1");
+                myClient.write("correct_1");
         } else if (key == '8') {
-                myClient.write("correct-2");
+                myClient.write("correct_2");
         } else if (key == '9') {
-                myClient.write("correct-3");
+                myClient.write("correct_3");
         }        
 }
 
